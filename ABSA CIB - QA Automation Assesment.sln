@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test Case One", "Test Case One", "{B33D599F-6911-41DE-BDAC-562B4473C333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test Case One_APITest", "Test Case One_APITest\Test Case One_APITest.csproj", "{1DFAD2FF-424E-444C-9213-182700FA80BB}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DFAD2FF-424E-444C-9213-182700FA80BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DFAD2FF-424E-444C-9213-182700FA80BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DFAD2FF-424E-444C-9213-182700FA80BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DFAD2FF-424E-444C-9213-182700FA80BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1DFAD2FF-424E-444C-9213-182700FA80BB} = {B33D599F-6911-41DE-BDAC-562B4473C333}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7390CD3C-3C2C-4873-90E3-A3132D52A825}
